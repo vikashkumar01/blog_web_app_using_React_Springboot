@@ -1,0 +1,44 @@
+.create-update-category{
+    display: flex;
+    width:100%;
+    height: calc(100vh - 6rem);
+    justify-content: center;
+
+    >form{
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        width: 35rem;
+        
+        >h2{
+            font-size: 2rem;
+        }
+        >div{
+          display: flex;
+          flex-direction: column;
+          margin-top: 1rem;
+
+          >label{
+            font-size: 1.6rem;
+          }
+
+          >input{
+            margin-top: 0.5rem;
+            height: 3.8rem;
+            border:1px solid grey;
+            padding: 1rem;
+            outline: none;
+          }
+
+          >button{
+            width: 12rem;
+            height: 3.8rem;
+            background-color: black;
+            color:#fff;
+            outline: none;
+            border: none;
+            margin-top: 0.5rem;
+          }
+        }
+    }
+}
